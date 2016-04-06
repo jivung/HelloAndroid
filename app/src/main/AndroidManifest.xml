@@ -27,6 +27,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.micke.helloandroid.MyActivity" />
         </activity>
+        <activity
+            android:name=".AccelerometerActivity"
+            android:label="@string/title_activity_accelerometer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CompassActivity"></activity>
     </application>
 
 </manifest>
